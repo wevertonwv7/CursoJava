@@ -5,15 +5,15 @@ public class IfElse{
 public static void main (String[] Args){
     Scanner scan = new Scanner(System.in);
     
-    // System.out.println("Entre com a sua idade");
+    System.out.println("Entre com a sua idade");
 
-    // int idade = scan.nextInt();
+    int idade = scan.nextInt();
 
-    // if(idade >= 18){
-    //     System.out.println("Você é maior de idade");
-    // } else { 
-    //     System.out.println("Não é maior de idade");
-    // }
+    if(idade >= 18){
+        System.out.println("Você é maior de idade");
+    } else { 
+        System.out.println("Não é maior de idade");
+    }
     
     System.out.println("Entre com o valor do produto");
 
