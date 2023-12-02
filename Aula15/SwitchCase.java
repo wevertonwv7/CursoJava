@@ -81,9 +81,6 @@ public class SwitchCase {
                 break;
             default: System.out.println("não é um dia da semana válido");
 
-
-
-
      }
-}
+  }
 }
