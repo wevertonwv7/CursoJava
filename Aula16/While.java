@@ -11,9 +11,7 @@ public class While {
         while (count <= max) {
             System.out.println(count);
             count++;
-            
         }
-
         do {
             count++;
             System.out.println(count);
