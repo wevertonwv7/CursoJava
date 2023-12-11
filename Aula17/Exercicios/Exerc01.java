@@ -7,21 +7,22 @@ public class Exerc01 {
         
         Scanner scan = new Scanner(System.in);
 
-        int valor = 0;
-
-        while (valor < 10) {
+        while (true) {
+             int valor = 0;
 
             System.out.println("Digite um valor entre 0 e 10:");
 
              valor = scan.nextInt();
 
-             if (valor > 10){
+             if (valor <= 10){
 
-                 System.out.println("Valor inválido");
+                 System.out.println("Valor válido");
+                 break;
 
              } else {
-                
-                System.out.println("Valor válido");
+
+                System.out.println("Valor inválido");
+                 valor = 0;
             }
         }
     }
