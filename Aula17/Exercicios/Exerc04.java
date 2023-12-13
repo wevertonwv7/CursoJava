@@ -17,11 +17,6 @@ public class Exerc04 {
 
             System.out.println("Em "+ ano+" o pais A tinha "+ paisAFormatado +" habitantes e o pais B tinha "+paisBFormatado+ " habitantes");
         }
-
-        String paisAFormatado = String.format("%.3f", paisA);
-        String paisBFormatado = String.format("%.3f", paisB);
-        
-        System.out.println("Em "+ ano+" o pais A tinha "+ paisAFormatado+" habitantes e o pais B tinha "+paisBFormatado+ " habitantes");
         }
 
     }
