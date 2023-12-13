@@ -14,7 +14,7 @@ public class Exerc01 {
 
              valor = scan.nextInt();
 
-             if (valor <= 10){
+             if (valor>=0 && valor <= 10){
 
                  System.out.println("Valor válido");
                  break;
